@@ -23,7 +23,7 @@ let input06 = document.querySelector("#otp06");
 
 const oneTimePass = () => {
   if (isOnePassword == false) {
-    alert("You is not register");
+    alert("You are not logged in.");
   }
 };
 
@@ -92,7 +92,7 @@ const editPassword = () => {
     input04.value = "";
     input05.value = "";
     input06.value = "";
-    alert("Pasword is changed");
+    alert("Password is changed");
     register.innerHTML = `<button class="btn btn-danger" id="btn3" onclick ="openModal()"><i class="fa-regular fa-circle-xmark"></i> Unsigned</button>`;
     isOnePassword = false;
     span.innerHTML = `<span id="Balance">**** EGP</span>`;
