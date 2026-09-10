@@ -145,3 +145,42 @@ h3 {
 #row4 {
   color: #d4af37;
 }
+
+@media (max-width: 768px) {
+  section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 15px;
+    box-sizing: border-box;
+  }
+
+  .Bank {
+    font-size: 28px;
+    padding: 10px;
+  }
+
+  .table {
+    width: 100%;
+    min-width: 0;
+    padding: 0;
+  }
+
+  .modalBody,
+  .modalBody1 {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    inset: 0;
+  }
+
+  #btn2 {
+    margin-left: auto;
+  }
+
+  .otp-input {
+    width: 40px;
+    height: 45px;
+    margin: 3px;
+    font-size: 22px;
+  }
+}
