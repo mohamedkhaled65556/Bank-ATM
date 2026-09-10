@@ -74,7 +74,7 @@ const editPassword = () => {
     input05.value +
     input06.value;
   if (inputs === "") alert("New password not can be empty");
-  else if (inputs.length < 6) alert("New passowrd must be 6 letters");
+  else if (inputs.length < 6) alert("New passowrd must be 6 digits");
   else if (inputs === passward) {
     alert("This password is used Before");
     input01.value = "";
